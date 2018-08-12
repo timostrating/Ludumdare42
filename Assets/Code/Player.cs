@@ -21,7 +21,7 @@ public class Player : MonoBehaviour {
 	
 	void Update() {
 		// MOVEMENT
-		Vector3 velocity = new Vector3(Input.GetAxisRaw("Horizontal") + -1 * Input.GetAxisRaw("Vertical"), 0, Input.GetAxisRaw("Horizontal") + Input.GetAxisRaw("Vertical"));
+		Vector3 velocity = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
 		velocity.Normalize();
 		velocity *= moveSpeed;
 		controller.move(velocity);
