@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Rock1
-  m_Shader: {fileID: 4800000, guid: 1c9a2e1313ce2c74480c6e24b2a6166d, type: 3}
+  m_Shader: {fileID: 4800000, guid: 7face61e2bd747849b6bed1a8920696b, type: 3}
   m_ShaderKeywords: _DETAIL_MULX2 _NORMALMAP
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
@@ -42,6 +42,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MOS:
+        m_Texture: {fileID: 2800000, guid: ea9b283dc91ec59438a2dcfb901dded9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 4ba0a69370173b047afd75d5f96161e6, type: 3}
         m_Scale: {x: 2, y: 2}
@@ -52,7 +56,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
         m_Texture: {fileID: 2800000, guid: 1b29fc7b67e3f2b4fa6533b9e6cb1387, type: 3}
-        m_Scale: {x: 2, y: 2}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
@@ -68,7 +72,7 @@ Material:
     - _DetailAO: -0.8
     - _DetailNormalMapScale: 0.5
     - _DiffuseAO: 0.1
-    - _DispOffset: 0.5
+    - _DispOffset: 0.754
     - _DispPhong: 0
     - _Displacement: 1
     - _DstBlend: 0
