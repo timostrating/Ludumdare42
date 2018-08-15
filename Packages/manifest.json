@@ -1,6 +1,9 @@
 {
   "dependencies": {
     "com.unity.package-manager-ui": "1.8.8",
-    "com.unity.probuilder": "3.0.9"
+    "com.unity.probuilder": "3.0.9",
+    "com.unity.cinemachine": "2.2.7",
+    "com.unity.render-pipelines.core": "1.1.11-preview",
+    "com.unity.shadergraph": "1.1.9-preview"
   }
 }
